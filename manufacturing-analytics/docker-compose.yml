@@ -1,0 +1,130 @@
+version: "3.9"
+
+services:
+
+  # ─── PostgreSQL ────────────────────────────────────────────────────────────
+  postgres:
+    image: postgres:16-alpine
+    container_name: mfg_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB:       ${POSTGRES_DB:-manufacturing_db}
+      POSTGRES_USER:     ${POSTGRES_USER:-mfg_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql/01_schema.sql:/docker-entrypoint-initdb.d/01_schema.sql
+      - ./sql/02_indexes.sql:/docker-entrypoint-initdb.d/02_indexes.sql
+      - ./sql/views/01_kpi_views.sql:/docker-entrypoint-initdb.d/03_views.sql
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-mfg_user} -d ${POSTGRES_DB:-manufacturing_db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - mfg_net
+
+  # ─── ETL Pipeline (one-shot) ───────────────────────────────────────────────
+  etl:
+    build:
+      context: ./etl
+      dockerfile: Dockerfile
+    container_name: mfg_etl
+    restart: "no"
+    env_file: .env
+    environment:
+      POSTGRES_HOST: postgres
+    volumes:
+      - ./data/raw:/app/data/raw:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - mfg_net
+
+  # ─── FastAPI Backend ───────────────────────────────────────────────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: mfg_backend
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      POSTGRES_HOST: postgres
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - mfg_net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ─── React Frontend ────────────────────────────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: mfg_frontend
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - mfg_net
+
+  # ─── Apache Superset ──────────────────────────────────────────────────────
+  superset-db:
+    image: postgres:16-alpine
+    container_name: mfg_superset_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB:       superset
+      POSTGRES_USER:     superset
+      POSTGRES_PASSWORD: superset
+    volumes:
+      - superset_db_data:/var/lib/postgresql/data
+    networks:
+      - mfg_net
+
+  superset:
+    image: apache/superset:3.1.0
+    container_name: mfg_superset
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      SUPERSET_DB_URI:         postgresql+psycopg2://superset:superset@superset-db:5432/superset
+      SUPERSET_SECRET_KEY:     ${SUPERSET_SECRET_KEY:-mfg-superset-dev-key-change-me}
+      SUPERSET_ADMIN_USER:     ${SUPERSET_ADMIN_USER:-admin}
+      SUPERSET_ADMIN_PASSWORD: ${SUPERSET_ADMIN_PASSWORD:-admin123}
+      SUPERSET_ADMIN_EMAIL:    ${SUPERSET_ADMIN_EMAIL:-admin@mfg.local}
+      SUPERSET_CONFIG_PATH:    /app/pythonpath/superset_config.py
+    volumes:
+      - ./superset/superset_config.py:/app/pythonpath/superset_config.py
+      - ./superset/init.sh:/app/init.sh
+      - superset_home:/app/superset_home
+    ports:
+      - "8088:8088"
+    command: ["/bin/sh", "/app/init.sh"]
+    depends_on:
+      - superset-db
+      - postgres
+    networks:
+      - mfg_net
+
+volumes:
+  postgres_data:
+  superset_db_data:
+  superset_home:
+
+networks:
+  mfg_net:
+    driver: bridge

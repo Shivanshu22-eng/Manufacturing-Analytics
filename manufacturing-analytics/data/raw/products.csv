@@ -1,0 +1,101 @@
+product_id,product_name,product_code,category,unit_of_measure,unit_cost,selling_price,reorder_level,reorder_quantity,weight_kg,is_active,created_at
+1,Piston Ring (Standard),PRD-0001,Engine Components,Piece,1127.62,1319.84,426,1310,3.142,True,2023-01-01
+2,Piston Ring (Premium),PRD-0002,Engine Components,Piece,1602.34,1870.81,294,1229,45.977,True,2023-01-01
+3,Piston Ring (Economy),PRD-0003,Engine Components,Piece,2679.07,3134.27,310,364,42.582,True,2023-01-01
+4,Crankshaft (Standard),PRD-0004,Engine Components,Piece,389.18,456.81,491,681,20.248,True,2023-01-01
+5,Crankshaft (Premium),PRD-0005,Engine Components,Piece,4710.9,6356.82,346,1417,2.083,True,2023-01-01
+6,Crankshaft (Economy),PRD-0006,Engine Components,Piece,455.82,629.07,339,1270,15.887,True,2023-01-01
+7,Camshaft (Standard),PRD-0007,Engine Components,Piece,1340.79,1856.2,210,688,13.354,True,2023-01-01
+8,Camshaft (Premium),PRD-0008,Engine Components,Piece,697.85,960.19,284,847,46.458,True,2023-01-01
+9,Camshaft (Economy),PRD-0009,Engine Components,Piece,4681.88,5399.43,368,1353,49.805,True,2023-01-01
+10,Connecting Rod (Standard),PRD-0010,Engine Components,Piece,412.64,505.32,185,471,46.67,True,2023-01-01
+11,Connecting Rod (Premium),PRD-0011,Engine Components,Piece,4410.28,6429.06,239,783,7.972,True,2023-01-01
+12,Connecting Rod (Economy),PRD-0012,Engine Components,Piece,4177.04,5832.15,363,1852,32.733,True,2023-01-01
+13,Valve Spring (Standard),PRD-0013,Engine Components,Piece,88.72,127.4,203,1558,5.269,True,2023-01-01
+14,Valve Spring (Premium),PRD-0014,Engine Components,Piece,4396.73,5463.21,104,1720,27.706,True,2023-01-01
+15,Valve Spring (Economy),PRD-0015,Engine Components,Piece,1398.12,1903.81,417,902,10.26,True,2023-01-01
+16,Oil Pump (Standard),PRD-0016,Engine Components,Piece,3189.48,3962.59,300,714,45.276,True,2023-01-01
+17,Oil Pump (Premium),PRD-0017,Engine Components,Piece,4238.21,5010.85,266,1898,13.906,True,2023-01-01
+18,Oil Pump (Economy),PRD-0018,Engine Components,Piece,67.55,95.91,376,736,8.163,True,2023-01-01
+19,Timing Belt (Standard),PRD-0019,Engine Components,Piece,2237.09,3125.18,337,219,5.683,True,2023-01-01
+20,Timing Belt (Premium),PRD-0020,Engine Components,Piece,4728.0,6580.7,126,1317,1.898,True,2023-01-01
+21,Timing Belt (Economy),PRD-0021,Engine Components,Piece,1877.62,2522.36,270,461,2.187,True,2023-01-01
+22,Cylinder Head (Standard),PRD-0022,Engine Components,Piece,1855.03,2739.1,490,281,44.956,True,2023-01-01
+23,Cylinder Head (Premium),PRD-0023,Engine Components,Piece,1089.88,1348.55,102,924,39.028,True,2023-01-01
+24,Cylinder Head (Economy),PRD-0024,Engine Components,Piece,4426.47,5720.03,367,1734,7.812,True,2023-01-01
+25,Gear Shaft (Standard),PRD-0025,Transmission Parts,Piece,4652.91,6758.87,459,1860,8.935,True,2023-01-01
+26,Gear Shaft (Premium),PRD-0026,Transmission Parts,Piece,2090.86,2535.75,220,1802,46.548,True,2023-01-01
+27,Gear Shaft (Economy),PRD-0027,Transmission Parts,Piece,4021.06,5840.28,465,708,13.414,True,2023-01-01
+28,Clutch Disc (Standard),PRD-0028,Transmission Parts,Piece,3947.5,4688.97,496,279,42.944,True,2023-01-01
+29,Clutch Disc (Premium),PRD-0029,Transmission Parts,Piece,1151.05,1652.68,285,916,15.329,True,2023-01-01
+30,Clutch Disc (Economy),PRD-0030,Transmission Parts,Piece,3986.96,4902.6,62,1551,9.737,True,2023-01-01
+31,Synchromesh Ring (Standard),PRD-0031,Transmission Parts,Piece,1674.9,2432.83,445,771,17.622,True,2023-01-01
+32,Synchromesh Ring (Premium),PRD-0032,Transmission Parts,Piece,2571.56,3568.89,481,1298,16.624,True,2023-01-01
+33,Synchromesh Ring (Economy),PRD-0033,Transmission Parts,Piece,186.62,271.9,183,565,29.071,True,2023-01-01
+34,Drive Shaft (Standard),PRD-0034,Transmission Parts,Piece,4918.58,5722.23,355,1089,17.35,True,2023-01-01
+35,Drive Shaft (Premium),PRD-0035,Transmission Parts,Piece,3942.82,5136.46,311,436,19.321,True,2023-01-01
+36,Drive Shaft (Economy),PRD-0036,Transmission Parts,Piece,2904.11,3598.64,412,1093,0.184,True,2023-01-01
+37,Differential Gear (Standard),PRD-0037,Transmission Parts,Piece,4631.6,6199.2,418,1719,36.878,True,2023-01-01
+38,Differential Gear (Premium),PRD-0038,Transmission Parts,Piece,1025.32,1333.89,390,876,31.195,True,2023-01-01
+39,Differential Gear (Economy),PRD-0039,Transmission Parts,Piece,3333.77,3979.25,203,1238,15.533,True,2023-01-01
+40,Torque Converter (Standard),PRD-0040,Transmission Parts,Piece,2071.54,2674.03,201,1335,6.452,True,2023-01-01
+41,Torque Converter (Premium),PRD-0041,Transmission Parts,Piece,2131.21,3152.33,396,1732,45.15,True,2023-01-01
+42,Torque Converter (Economy),PRD-0042,Transmission Parts,Piece,3096.8,3887.51,330,1907,0.12,True,2023-01-01
+43,Alternator (Standard),PRD-0043,Electrical Systems,Piece,1470.22,1911.96,346,1442,32.77,True,2023-01-01
+44,Alternator (Premium),PRD-0044,Electrical Systems,Piece,2351.69,3068.38,159,1246,23.712,True,2023-01-01
+45,Alternator (Economy),PRD-0045,Electrical Systems,Piece,4510.85,6444.24,136,1549,4.331,True,2023-01-01
+46,Starter Motor (Standard),PRD-0046,Electrical Systems,Piece,2601.49,3568.02,221,391,40.939,True,2023-01-01
+47,Starter Motor (Premium),PRD-0047,Electrical Systems,Piece,3768.13,5220.66,165,1851,10.037,True,2023-01-01
+48,Starter Motor (Economy),PRD-0048,Electrical Systems,Piece,170.91,211.19,293,1451,42.502,True,2023-01-01
+49,Wiring Harness (Standard),PRD-0049,Electrical Systems,Piece,410.5,531.62,372,1378,9.802,True,2023-01-01
+50,Wiring Harness (Premium),PRD-0050,Electrical Systems,Piece,3496.95,4626.58,174,502,32.837,True,2023-01-01
+51,Wiring Harness (Economy),PRD-0051,Electrical Systems,Piece,77.45,109.42,444,418,38.943,True,2023-01-01
+52,ECU Module (Standard),PRD-0052,Electrical Systems,Piece,1133.26,1622.19,406,1260,23.281,True,2023-01-01
+53,ECU Module (Premium),PRD-0053,Electrical Systems,Piece,2809.16,4132.6,112,1134,6.754,True,2023-01-01
+54,ECU Module (Economy),PRD-0054,Electrical Systems,Piece,2349.98,3139.33,336,1419,15.933,True,2023-01-01
+55,Fuse Box (Standard),PRD-0055,Electrical Systems,Piece,3788.49,4943.6,467,1673,44.612,True,2023-01-01
+56,Fuse Box (Premium),PRD-0056,Electrical Systems,Piece,2162.37,3173.06,278,525,37.208,True,2023-01-01
+57,Fuse Box (Economy),PRD-0057,Electrical Systems,Piece,2399.64,2977.27,176,1920,31.919,True,2023-01-01
+58,Relay Switch (Standard),PRD-0058,Electrical Systems,Piece,3840.78,5117.67,370,689,13.802,True,2023-01-01
+59,Relay Switch (Premium),PRD-0059,Electrical Systems,Piece,433.54,541.93,189,887,16.054,True,2023-01-01
+60,Relay Switch (Economy),PRD-0060,Electrical Systems,Piece,2723.75,3264.23,168,984,34.728,True,2023-01-01
+61,Hood Panel (Standard),PRD-0061,Body Panels,Piece,3546.77,4158.52,258,877,27.176,True,2023-01-01
+62,Hood Panel (Premium),PRD-0062,Body Panels,Piece,2108.08,2576.9,265,997,45.251,True,2023-01-01
+63,Hood Panel (Economy),PRD-0063,Body Panels,Piece,2941.19,4098.35,488,1767,28.827,True,2023-01-01
+64,Door Panel (Standard),PRD-0064,Body Panels,Piece,2411.05,3568.26,202,1743,19.56,True,2023-01-01
+65,Door Panel (Premium),PRD-0065,Body Panels,Piece,4463.63,6438.81,325,1730,36.758,True,2023-01-01
+66,Door Panel (Economy),PRD-0066,Body Panels,Piece,4009.35,5870.63,299,649,13.719,True,2023-01-01
+67,Fender Assembly (Standard),PRD-0067,Body Panels,Piece,2453.93,3156.0,392,1590,39.927,True,2023-01-01
+68,Fender Assembly (Premium),PRD-0068,Body Panels,Piece,3634.7,5249.15,115,1474,26.753,True,2023-01-01
+69,Fender Assembly (Economy),PRD-0069,Body Panels,Piece,4539.3,6160.57,389,255,4.289,True,2023-01-01
+70,Roof Panel (Standard),PRD-0070,Body Panels,Piece,2171.63,3156.24,143,302,13.082,True,2023-01-01
+71,Roof Panel (Premium),PRD-0071,Body Panels,Piece,1670.4,2186.8,222,1758,43.994,True,2023-01-01
+72,Roof Panel (Economy),PRD-0072,Body Panels,Piece,1427.37,2116.68,265,716,41.762,True,2023-01-01
+73,Trunk Lid (Standard),PRD-0073,Body Panels,Piece,2378.02,3358.14,76,916,11.289,True,2023-01-01
+74,Trunk Lid (Premium),PRD-0074,Body Panels,Piece,389.66,578.66,70,1744,1.648,True,2023-01-01
+75,Trunk Lid (Economy),PRD-0075,Body Panels,Piece,1274.05,1839.38,368,512,12.003,True,2023-01-01
+76,Bumper Cover (Standard),PRD-0076,Body Panels,Piece,2394.13,2849.1,161,1152,35.003,True,2023-01-01
+77,Bumper Cover (Premium),PRD-0077,Body Panels,Piece,3846.15,4648.94,360,1731,35.946,True,2023-01-01
+78,Bumper Cover (Economy),PRD-0078,Body Panels,Piece,3900.07,4708.62,209,421,28.976,True,2023-01-01
+79,Brake Disc (Standard),PRD-0079,Brake Systems,Piece,4647.99,6281.89,242,1012,47.079,True,2023-01-01
+80,Brake Disc (Premium),PRD-0080,Brake Systems,Piece,1031.73,1400.3,475,1484,12.218,True,2023-01-01
+81,Brake Disc (Economy),PRD-0081,Brake Systems,Piece,3501.11,4395.83,400,1429,40.296,True,2023-01-01
+82,Brake Pad (Standard),PRD-0082,Brake Systems,Piece,3991.32,5380.6,71,911,26.684,True,2023-01-01
+83,Brake Pad (Premium),PRD-0083,Brake Systems,Piece,3324.53,3903.45,381,898,0.731,True,2023-01-01
+84,Brake Pad (Economy),PRD-0084,Brake Systems,Piece,2129.29,2814.01,271,941,31.816,True,2023-01-01
+85,Brake Caliper (Standard),PRD-0085,Brake Systems,Piece,4152.1,5802.8,272,560,36.716,True,2023-01-01
+86,Brake Caliper (Premium),PRD-0086,Brake Systems,Piece,4829.09,6009.94,463,1302,38.755,True,2023-01-01
+87,Brake Caliper (Economy),PRD-0087,Brake Systems,Piece,2351.13,3383.29,353,749,16.183,True,2023-01-01
+88,ABS Sensor (Standard),PRD-0088,Brake Systems,Piece,1265.2,1868.85,192,1123,12.269,True,2023-01-01
+89,ABS Sensor (Premium),PRD-0089,Brake Systems,Piece,2350.31,3204.92,244,888,1.532,True,2023-01-01
+90,ABS Sensor (Economy),PRD-0090,Brake Systems,Piece,4262.22,5172.82,158,926,39.912,True,2023-01-01
+91,Master Cylinder (Standard),PRD-0091,Brake Systems,Piece,1734.68,2529.36,409,765,27.834,True,2023-01-01
+92,Master Cylinder (Premium),PRD-0092,Brake Systems,Piece,2607.3,3172.74,173,1674,20.381,True,2023-01-01
+93,Master Cylinder (Economy),PRD-0093,Brake Systems,Piece,2798.12,3453.2,293,1522,35.621,True,2023-01-01
+94,Shock Absorber (Standard),PRD-0094,Suspension Parts,Piece,2268.46,2622.42,200,653,20.28,True,2023-01-01
+95,Shock Absorber (Premium),PRD-0095,Suspension Parts,Piece,1254.36,1734.01,238,1169,27.718,True,2023-01-01
+96,Shock Absorber (Economy),PRD-0096,Suspension Parts,Piece,1751.6,2625.33,331,877,17.655,True,2023-01-01
+97,Coil Spring (Standard),PRD-0097,Suspension Parts,Piece,2296.04,2886.85,168,447,36.092,True,2023-01-01
+98,Coil Spring (Premium),PRD-0098,Suspension Parts,Piece,1611.96,2272.88,440,1613,9.339,True,2023-01-01
+99,Coil Spring (Economy),PRD-0099,Suspension Parts,Piece,1121.1,1479.26,420,1407,48.833,True,2023-01-01
+100,Control Arm (Standard),PRD-0100,Suspension Parts,Piece,2646.95,3306.17,101,1905,9.786,True,2023-01-01

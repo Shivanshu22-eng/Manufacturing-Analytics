@@ -1,0 +1,11 @@
+plant_id,plant_name,city,state,country,capacity,established_year,is_active,created_at
+1,Mumbai Manufacturing Plant,Mumbai,Maharashtra,India,1809,1998,True,2023-01-01
+2,Pune Manufacturing Plant,Pune,Maharashtra,India,551,2003,True,2023-01-01
+3,Chennai Manufacturing Plant,Chennai,Tamil Nadu,India,1001,2002,True,2023-01-01
+4,Coimbatore Manufacturing Plant,Coimbatore,Tamil Nadu,India,785,1998,True,2023-01-01
+5,Ahmedabad Manufacturing Plant,Ahmedabad,Gujarat,India,1885,2012,True,2023-01-01
+6,Surat Manufacturing Plant,Surat,Gujarat,India,678,2013,True,2023-01-01
+7,Hyderabad Manufacturing Plant,Hyderabad,Telangana,India,1364,1996,True,2023-01-01
+8,Bengaluru Manufacturing Plant,Bengaluru,Karnataka,India,561,1997,True,2023-01-01
+9,Lucknow Manufacturing Plant,Lucknow,Uttar Pradesh,India,947,2002,True,2023-01-01
+10,Jaipur Manufacturing Plant,Jaipur,Rajasthan,India,1534,2014,True,2023-01-01

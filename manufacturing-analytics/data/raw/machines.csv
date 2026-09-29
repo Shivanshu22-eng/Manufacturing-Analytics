@@ -1,0 +1,51 @@
+machine_id,machine_name,machine_type,plant_id,model_number,manufacturer,installation_date,last_maintenance_date,status,hourly_capacity,created_at
+1,3D Printer #001,3D Printer,1,MDL-9928,"Rodriguez, Figueroa and Sanchez",2006-12-02,2024-12-30,Operational,134,2023-01-01
+2,Forklift #002,Forklift,1,MDL-1106,Doyle Ltd,2010-06-24,2024-12-30,Operational,60,2023-01-01
+3,Assembly Robot #003,Assembly Robot,1,MDL-5552,"Mcclain, Miller and Henderson",2013-04-06,2024-12-30,Operational,106,2023-01-01
+4,CNC Milling Machine #004,CNC Milling Machine,1,MDL-7224,Davis and Sons,2002-02-28,2024-12-27,Operational,108,2023-01-01
+5,Welding Robot #005,Welding Robot,2,MDL-1711,"Guzman, Hoffman and Baldwin",2021-02-06,2024-12-30,Operational,157,2023-01-01
+6,CNC Milling Machine #006,CNC Milling Machine,2,MDL-2291,"Gardner, Robinson and Lawrence",2011-06-28,2024-12-30,Operational,180,2023-01-01
+7,Forklift #007,Forklift,2,MDL-6925,Blake and Sons,2022-11-10,2024-12-29,Operational,200,2023-01-01
+8,CNC Milling Machine #008,CNC Milling Machine,2,MDL-4733,"Henderson, Ramirez and Lewis",2004-01-11,2024-12-28,Operational,40,2023-01-01
+9,Injection Moulding Machine #009,Injection Moulding Machine,2,MDL-2654,Garcia-James,2022-06-08,2024-12-30,Operational,136,2023-01-01
+10,Conveyor System #010,Conveyor System,2,MDL-7065,Abbott-Munoz,2006-08-25,2024-12-30,Operational,191,2023-01-01
+11,CNC Milling Machine #011,CNC Milling Machine,3,MDL-3803,Blair PLC,2015-08-31,2024-12-30,Operational,82,2023-01-01
+12,Hydraulic Press #012,Hydraulic Press,3,MDL-7216,Dudley Group,2012-05-14,2024-12-30,Operational,183,2023-01-01
+13,3D Printer #013,3D Printer,3,MDL-6313,Arnold Ltd,2006-12-05,2024-12-28,Under Maintenance,34,2023-01-01
+14,Injection Moulding Machine #014,Injection Moulding Machine,3,MDL-1525,"Mcclure, Ward and Lee",2020-06-07,2024-12-30,Under Maintenance,122,2023-01-01
+15,Welding Robot #015,Welding Robot,3,MDL-4456,Williams and Sons,2003-06-27,2024-12-27,Idle,165,2023-01-01
+16,Conveyor System #016,Conveyor System,4,MDL-9179,Galloway-Wyatt,2007-07-16,2024-12-30,Operational,184,2023-01-01
+17,Laser Cutter #017,Laser Cutter,4,MDL-5339,James Group,2004-05-29,2024-12-30,Operational,163,2023-01-01
+18,3D Printer #018,3D Printer,4,MDL-8019,"Flowers, Martin and Kelly",2009-10-14,2024-12-30,Under Maintenance,122,2023-01-01
+19,Conveyor System #019,Conveyor System,4,MDL-3266,"Adams, Zuniga and Wong",2007-11-03,2024-12-30,Operational,43,2023-01-01
+20,CNC Lathe #020,CNC Lathe,4,MDL-3504,"Reid, Ferguson and Sanchez",2002-12-02,2024-12-30,Operational,194,2023-01-01
+21,Assembly Robot #021,Assembly Robot,4,MDL-7304,Gray-Mayo,2000-11-06,2024-12-27,Operational,139,2023-01-01
+22,Welding Robot #022,Welding Robot,5,MDL-1188,"Watts, Robinson and Nguyen",2022-11-21,2024-12-30,Operational,49,2023-01-01
+23,3D Printer #023,3D Printer,5,MDL-5371,Perez Inc,2020-06-02,2024-12-29,Operational,107,2023-01-01
+24,CNC Milling Machine #024,CNC Milling Machine,5,MDL-8123,Morales-Jones,2015-04-17,2024-12-30,Operational,20,2023-01-01
+25,Welding Robot #025,Welding Robot,5,MDL-9201,"Walter, Edwards and Rios",2022-11-24,2024-12-30,Operational,149,2023-01-01
+26,CNC Milling Machine #026,CNC Milling Machine,5,MDL-5889,Wilkerson-Day,2021-10-05,2024-12-28,Under Maintenance,149,2023-01-01
+27,Forklift #027,Forklift,5,MDL-3504,Baker and Sons,2014-03-25,2024-12-30,Operational,61,2023-01-01
+28,3D Printer #028,3D Printer,6,MDL-6310,"Hoffman, Baker and Richards",2013-01-03,2024-12-24,Operational,48,2023-01-01
+29,Conveyor System #029,Conveyor System,6,MDL-6038,"Ross, Robinson and Bright",2022-11-09,2024-12-29,Operational,81,2023-01-01
+30,Forklift #030,Forklift,6,MDL-2403,"Snyder, Campos and Callahan",2013-11-19,2024-12-27,Operational,37,2023-01-01
+31,3D Printer #031,3D Printer,6,MDL-3060,Burton Ltd,2021-08-03,2024-12-29,Operational,141,2023-01-01
+32,3D Printer #032,3D Printer,6,MDL-5342,Carlson-Cruz,2014-11-08,2024-12-29,Operational,175,2023-01-01
+33,Assembly Robot #033,Assembly Robot,6,MDL-9835,"Ferrell, Rice and Maddox",2015-05-18,2024-12-30,Operational,196,2023-01-01
+34,Welding Robot #034,Welding Robot,7,MDL-7118,Frazier Inc,2013-11-24,2024-12-27,Operational,152,2023-01-01
+35,Laser Cutter #035,Laser Cutter,7,MDL-5061,"Dyer, Potter and Mack",2001-06-05,2024-12-29,Operational,106,2023-01-01
+36,CNC Lathe #036,CNC Lathe,7,MDL-4770,Rodriguez-Graham,2022-05-22,2024-12-25,Operational,21,2023-01-01
+37,CNC Milling Machine #037,CNC Milling Machine,7,MDL-4750,Smith-Bowen,1998-08-22,2024-12-30,Operational,28,2023-01-01
+38,CNC Milling Machine #038,CNC Milling Machine,8,MDL-4899,"Baker, Mason and White",2020-01-24,2024-12-29,Operational,144,2023-01-01
+39,Injection Moulding Machine #039,Injection Moulding Machine,8,MDL-3167,Harrell LLC,2021-03-10,2024-12-30,Operational,166,2023-01-01
+40,Forklift #040,Forklift,8,MDL-4981,"Romero, Gonzalez and Brooks",2018-03-16,2024-12-30,Operational,124,2023-01-01
+41,Injection Moulding Machine #041,Injection Moulding Machine,8,MDL-2588,Ryan PLC,2001-03-26,2024-12-30,Operational,110,2023-01-01
+42,Assembly Robot #042,Assembly Robot,8,MDL-8651,George Group,2015-06-11,2024-12-29,Under Maintenance,33,2023-01-01
+43,CNC Milling Machine #043,CNC Milling Machine,9,MDL-7596,Rodriguez LLC,2003-05-12,2024-12-30,Operational,47,2023-01-01
+44,Injection Moulding Machine #044,Injection Moulding Machine,9,MDL-4116,Allen-Allen,2006-04-19,2024-12-30,Operational,55,2023-01-01
+45,Assembly Robot #045,Assembly Robot,9,MDL-5563,"Arroyo, Miller and Tucker",2006-02-12,2024-12-30,Operational,39,2023-01-01
+46,Laser Cutter #046,Laser Cutter,9,MDL-2604,Spence PLC,2020-02-15,2024-12-29,Operational,158,2023-01-01
+47,CNC Lathe #047,CNC Lathe,9,MDL-4872,Anderson Group,2004-02-04,2024-12-30,Operational,144,2023-01-01
+48,Laser Cutter #048,Laser Cutter,9,MDL-7570,"Martin, Rose and Obrien",2006-10-18,2024-12-29,Idle,62,2023-01-01
+49,CNC Lathe #049,CNC Lathe,10,MDL-5345,Hickman Ltd,2018-05-19,2024-12-30,Idle,136,2023-01-01
+50,Welding Robot #050,Welding Robot,10,MDL-8973,"Harris, Collins and Carney",2018-09-29,2024-12-29,Operational,95,2023-01-01
